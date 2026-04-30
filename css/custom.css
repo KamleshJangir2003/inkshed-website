@@ -1,6 +1,8 @@
 .wrapper {
   font-size: 50px;
-  color: white;
+  background: linear-gradient(90deg, #ffffff, #0bbaff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-transform: uppercase;
 }
 
@@ -573,7 +575,10 @@ ol.content {
     margin-left: 17px;
 }
 .hero-heading-sec>p {
-    color: #fff000;
+     background: linear-gradient(90deg, #ffffff, #0bbaff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
     font-size: 23px;
     max-width: 400px;
     margin: 40px 0;
