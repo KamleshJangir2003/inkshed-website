@@ -143,10 +143,11 @@ span.circle2 {
     padding: 0 3px;
 }
 .text-primary {
-    color: #fe4c1c;
+    color: #0bbaff;
 }
+
 .text-second {
-    color: #e91e63;
+    color: #0066ff;
 }
 .text-bold {
     font-weight: 700;
@@ -5220,20 +5221,20 @@ html .pb140 {
     -webkit-text-fill-color: transparent;
 }
 .bg-btn {
-    background: #ffbd84;
-    background: -moz-linear-gradient(left, #ffbd84 0, #ff1f8e 100%);
-    background: -webkit-linear-gradient(left, #ffbd84 0, #ff1f8e 100%);
-    background: linear-gradient(to right, #ffbd84 0, #ff1f8e 100%);
-    -webkit-box-shadow: 0 10px 15px 0 rgba(175, 0, 87, .2);
-    box-shadow: 0 10px 15px 0 rgba(175, 0, 87, .2);
+    background: #0bbaff;
+    background: -moz-linear-gradient(left, #0bbaff 0, #0066ff 100%);
+    background: -webkit-linear-gradient(left, #0bbaff 0, #0066ff 100%);
+    background: linear-gradient(to right, #0bbaff 0, #0066ff 100%);
+    -webkit-box-shadow: 0 10px 15px 0 rgba(0, 102, 255, .2);
+    box-shadow: 0 10px 15px 0 rgba(0, 102, 255, .2);
 }
 .bg-btn2 {
-    background: #f92c8b;
-    background: -moz-linear-gradient(left, #f92c8b 0, #b02cd6 100%);
-    background: -webkit-linear-gradient(left, #f92c8b 0, #b02cd6 100%);
-    background: linear-gradient(to right, #f92c8b 0, #b02cd6 100%);
-    -webkit-box-shadow: 0 10px 15px 0 rgba(175, 0, 202, .2);
-    box-shadow: 0 10px 15px 0 rgba(175, 0, 202, .2);
+    background: #0bbaff;
+    background: -moz-linear-gradient(left, #0bbaff 0, #6a5acd 100%);
+    background: -webkit-linear-gradient(left, #0bbaff 0, #6a5acd 100%);
+    background: linear-gradient(to right, #0bbaff 0, #6a5acd 100%);
+    -webkit-box-shadow: 0 10px 15px 0 rgba(106, 90, 205, .25);
+    box-shadow: 0 10px 15px 0 rgba(106, 90, 205, .25);
 }
 .bg-btn3 {
     background: #673ab7;
@@ -5751,8 +5752,10 @@ body.hc-nav-open {
     background: #050748;
     transition: all .2s ease;
 }
-.nav-bg-b .hc-nav-trigger span, .nav-bg-b .hc-nav-trigger span::after, .nav-bg-b .hc-nav-trigger span::before {
-    background: linear-gradient(to right, #ffbd84 0, #ff1f8e 100%);
+.nav-bg-b .hc-nav-trigger span, 
+.nav-bg-b .hc-nav-trigger span::after, 
+.nav-bg-b .hc-nav-trigger span::before {
+    background: linear-gradient(to right, #0bbaff 0, #0066ff 100%);
 }
 .hc-nav-trigger span::after, .hc-nav-trigger span::before {
     content: '';
